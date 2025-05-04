@@ -6,6 +6,10 @@ table {
 			height:50px;
 			width:50%;
         }
+td {
+    border: 1px solid rgb(0, 0, 0) !important;  /* Adding !important to avoid overrides */
+    padding: 1px !important;  /* Adding !important to avoid padding issues */
+}
 
         .green {
             background-color: green;
